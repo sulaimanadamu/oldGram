@@ -1,0 +1,153 @@
+body{
+margin-left: auto;
+margin-right: auto;
+width:fit-content;
+padding: 1px;
+margin-top: 10px;
+background-color: #EDEDED;
+}
+
+/* all headings */
+ .profile-pics{
+    min-width: 34px;
+    min-height: 34px;
+    max-width: 5em;
+    max-height: 5em;
+} 
+
+.friend-info{
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    margin:10px 0;
+    padding: 3px;
+}
+
+.above-content{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    margin-left: 10px;
+}
+/* the above contains all style for top bar */
+
+
+.card{
+    width: inherit;
+    margin-bottom: 40px;
+    background-color: white;
+}
+
+.app-body{
+    width: 90vw;
+    background-color: #EDEDED;
+}
+
+.card:last-child{
+    margin-bottom: 0;
+}
+
+p, h1{
+    margin-top: 2px;
+    margin-bottom: 0;
+    margin-left: 5px;
+    box-sizing: content-box;
+}
+
+.reactions{
+    margin-top: 6px;
+}
+
+.post{
+    min-height: 375px;
+    margin-bottom: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.post-reaction{
+    margin: 12px 0px 18px 0px;
+    padding: 0;
+}
+.post-reaction div{
+    border: 2px solid green;
+}
+
+.below-content{
+    padding: 1px;
+}
+
+
+.emojis{
+    height: 10vh;
+    margin-top: 10px;
+}
+
+
+
+.center-element{
+    display: flex;
+    align-items: center;
+}
+
+.tab{
+    height: 15vh;
+    width: 90vw;
+    display: flex;
+    align-items: center;
+    padding: 1px;
+    margin: 0;
+    border-bottom: 1px solid grey;
+    background-color: white;
+
+}
+
+
+.app-logo, .tab .profile-pics{
+    height: inherit;
+    min-width: 34px;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+.round-img{
+    border-radius: 50%;
+}
+
+.tab-content-container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: inherit;
+}
+
+.my-profile-pics{
+    background-color: bisque;
+    margin: 20px;
+}
+
+.tab-content-container, .friend-info{
+    display: flex;
+    align-items: center;
+}
+
+.space-around, .above-content{
+    margin: 0px;
+}
+
+.icons{
+    margin-left: 5px;
+    margin-right: 10px;
+    height: 100%;
+    padding: 0;
+}
+
+span{
+    font-size: larger;
+    font-weight: 600;
+}
+
+.reactions{
+    font-size: 1.5em;
+}
